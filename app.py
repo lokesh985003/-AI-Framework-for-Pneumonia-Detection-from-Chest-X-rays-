@@ -6,8 +6,8 @@ from pathlib import Path
 app = Flask(__name__)
 
 # Load the exported learner
-path = Path("D:\detection of pneumonia\dataset1.csv")
-learn_inf = load_learner(path/"D:\detection of pneumonia\export.pkl")
+path = Path("D:\AI Framework for Pneumonia Detection from Chest X-rays\dataset1.csv")
+learn_inf = load_learner(path/"D:\AI Framework for Pneumonia Detection from Chest X-rays\export.pkl")
 
 # Dictionary to map model predictions to descriptions and risk factors
 class_labels = {
